@@ -31,3 +31,26 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# TensorFlow Lite models (optional)
+*.tflite
+
+# Chaquopy native files (optional)
+*.so
+*.whl
